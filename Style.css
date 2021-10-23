@@ -1,0 +1,75 @@
+body{
+    background-image: url(./image/download.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+.btnd,.player1,.player2{
+    /* border: 2px solid black; */
+    background-color:rgba(0, 217, 255, 0.418);
+    width: 100%;
+    height: 5pc;
+    display: flex;
+    font-family: cursive;
+    font-size: 1.5pc;
+    align-items: center;
+    justify-content: center;
+}
+.player1{
+     display: none;
+}
+.player2{
+    display: none;
+
+}
+.btnd{
+    display:flex;
+}
+.refresh{
+    margin: 5px;
+    padding:10px;
+    border-radius: 2rem;
+    font-family: cursive;
+    font-size: 1.5pc;
+}
+.btn{
+    size: 3pc;
+    width: 10pc;
+    height: 3pc;
+    box-shadow: 1px 1px 5px green;
+    background-color: rgba(0, 217, 255, 0.418);
+    font-size: 2pc;
+    font-family: cursive;
+}
+.main{
+    height: 100vh;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.gridpos{
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+    font-size: 2pc;
+    font-weight: 5px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+
+}
+
+  
